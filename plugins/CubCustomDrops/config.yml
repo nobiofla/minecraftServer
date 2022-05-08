@@ -1,0 +1,2014 @@
+CubCustomDrops:
+  mobNames:
+    key:
+      '0': §aCave Spider
+      '1': §aSpider
+      '2': §aZombie Horse
+      '3': §aIllusioner
+      '4': §aZombie
+      '5': §aBat
+      '6': §aZombie Villager
+      '7': §aSkeleton
+      '8': §aPig
+      '9': §aCreeper
+      '10': §aCow
+      '11': §aVex
+      '12': §aEnderman
+      '13': §aGhast
+      '14': §aSheep
+      '15': §aGiant
+      '16': §aChicken
+      '17': §aWitch
+    get:
+      '0':
+        Name: §aCave Spider
+      '1':
+        Name: §aSpider
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '2':
+        Name: §aZombie Horse
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 5010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '3':
+        Name: §aIllusioner
+      '4':
+        Name: §aZombie
+        VanillaDrops:
+          '0': world_nether
+          '1': world_the_end
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: IRON_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 9510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: REDSTONE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLD_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 710
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '4':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '5':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:night_vision
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '6':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:leaping
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '7':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:swiftness
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '8':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '9':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: TNT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 255
+              GREEN: 255
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '10':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_BOOK
+              meta:
+                ==: ItemMeta
+                meta-type: ENCHANTED
+                stored-enchants:
+                  DURABILITY: 3
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '11':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_BOOK
+              meta:
+                ==: ItemMeta
+                meta-type: ENCHANTED
+                stored-enchants:
+                  MENDING: 1
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '12':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: COOKED_BEEF
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '13':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:invisibility
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '5':
+        Name: §aBat
+        VanillaDrops:
+          '0': world_the_end
+          '1': world_nether
+      '6':
+        Name: §aZombie Villager
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 5010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:strong_poison
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:invisibility
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '7':
+        Name: §aSkeleton
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLD_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: REDSTONE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: IRON_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 710
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '4':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '5':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:night_vision
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '6':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:leaping
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '7':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:swiftness
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '8':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '9':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:strong_poison
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '10':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: TNT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 255
+              GREEN: 255
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '11':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GUNPOWDER
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '12':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_BOOK
+              meta:
+                ==: ItemMeta
+                meta-type: ENCHANTED
+                stored-enchants:
+                  DURABILITY: 3
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '13':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_BOOK
+              meta:
+                ==: ItemMeta
+                meta-type: ENCHANTED
+                stored-enchants:
+                  MENDING: 1
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '14':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: COOKED_BEEF
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '15':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:invisibility
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '8':
+        Name: §aPig
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: BLAZE_POWDER
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: BLAZE_ROD
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: OAK_PLANKS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '9':
+        Name: §aCreeper
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLD_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: REDSTONE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: IRON_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 255
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 710
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '4':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '5':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:night_vision
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '6':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:leaping
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '7':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:swiftness
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '8':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '9':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: TNT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 255
+              GREEN: 255
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '10':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GUNPOWDER
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 8010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '11':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_BOOK
+              meta:
+                ==: ItemMeta
+                meta-type: ENCHANTED
+                stored-enchants:
+                  DURABILITY: 3
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '12':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_BOOK
+              meta:
+                ==: ItemMeta
+                meta-type: ENCHANTED
+                stored-enchants:
+                  MENDING: 1
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 10
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '13':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: COOKED_BEEF
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '14':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:invisibility
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '10':
+        Name: §aCow
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+              amount: 2
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 1510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+              amount: 2
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '11':
+        Name: §aVex
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: NETHER_STAR
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_HELMET
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_CHESTPLATE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_LEGGINGS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '4':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_BOOTS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '5':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LAPIS_LAZULI
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 4010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '12':
+        Name: §aEnderman
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '13':
+        Name: §aGhast
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_HELMET
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_CHESTPLATE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_LEGGINGS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: DIAMOND_BOOTS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '4':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LAPIS_LAZULI
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 5010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '5':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: OBSIDIAN
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '14':
+        Name: §aSheep
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: BLAZE_POWDER
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: BLAZE_ROD
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: OAK_PLANKS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 510
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '15':
+        Name: §aGiant
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLD_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: REDSTONE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '4':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: IRON_INGOT
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 9010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '5':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: NETHER_STAR
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '16':
+        Name: §aChicken
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: BLAZE_POWDER
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: BLAZE_ROD
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: OAK_PLANKS
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: false
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1310
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 1010
+            WorldOverride: true
+            Worlds:
+              '0': world
+      '17':
+        Name: §aWitch
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            DropChance: 5010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: ENCHANTED_GOLDEN_APPLE
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            DropChance: 3010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '2':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:regeneration
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 5010
+            WorldOverride: true
+            Worlds:
+              '0': world
+          '3':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: LINGERING_POTION
+              meta:
+                ==: ItemMeta
+                meta-type: POTION
+                potion-type: minecraft:strong_poison
+            SpawnerDrop: true
+            EggDrop: true
+            NaturalDrop: true
+            BredDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 2010
+            WorldOverride: true
+            Worlds:
+              '0': world
+  globalSettings:
+    LootingMultiplier: true
+    LootingAll: true
+    LootingM: 165
+    LootingA: 80
+    FortuneMultiplier: false
+    FortuneAll: false
+    FortuneM: 15
+    FortuneA: 10
+    GlobalWorlds:
+      '0': world
+    LoadedOnce: true
+  afkFarm: false

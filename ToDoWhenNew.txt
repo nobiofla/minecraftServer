@@ -1,0 +1,14 @@
+#Keep Inventory
+/gamerule keepInventory true
+
+#Creeper don't explode block and Enderman can't rob block
+/gamerule mobGriefing false
+
+#No Hungry
+/gamerule naturalRegeneration false
+
+#Spawn Radius
+/gamerule spawnRadius 50
+
+#Fire Protection
+/gamerule doFireTick false

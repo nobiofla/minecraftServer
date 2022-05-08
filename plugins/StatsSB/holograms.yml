@@ -1,0 +1,8 @@
+holograms:
+  kill_board:
+    type: kills
+    location:
+      world: world
+      x: 2497.4432228214073
+      y: 72.0
+      z: 1689.2029790177917

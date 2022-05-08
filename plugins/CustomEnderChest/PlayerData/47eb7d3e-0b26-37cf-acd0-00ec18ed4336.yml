@@ -1,0 +1,598 @@
+PlayerLastName: Nobiofla
+EnderChestSize: 54
+EnderChestInventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"text":"LightSaber (Blue)"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"May
+        The Force be with you"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Always"}],"text":""}'
+      custom-model-data: 46
+      enchants:
+        PIERCING: 4
+        DURABILITY: 3
+        ARROW_FIRE: 1
+        DAMAGE_ALL: 5
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 7fc06e80-60f6-402b-8578-c13bef083dcf
+          operation: 0
+      repair-cost: 3
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+        PROTECTION_ENVIRONMENTAL: 4
+        MENDING: 1
+        VANISHING_CURSE: 1
+      repair-cost: 63
+      blockMaterial: SHIELD
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Homing
+        RPG Launcher"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        0/1"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        100.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        100.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Rocket"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 30
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 295bb908-5abe-423b-9911-4ee6973be59e
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"MP5K"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        32/32"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        2.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        12.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"9mm"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 3
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 7e9af8e7-c586-4fad-96c2-cb6314def2f3
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Debug
+        Gun"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"No
+        sway. Perfect for detecting bounding boxes."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Varient:
+        12"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        69420/69420"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        5.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        120.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"5.56
+        NATO"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 34
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: c55f27ab-a507-4fb3-aedd-e25dce89e025
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"\"Needler\""}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Warning:
+        Sharp"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        32/32"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        1.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        8.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        Fusion Cell"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 41
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: f08efe96-fd02-44b7-905e-6214459998af
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Vera"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"The
+        Callahan Full-bore Auto-lock."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"\"Customized
+        trigger, �"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"double
+        cartridge thorough gauge."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"It
+        is my very favorite gun "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+        is the best gun made by man."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        It has extreme sentimental value "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"I
+        call her Vera.\"-Jayne Cobb"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        30/30"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        3.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        12.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"5.56
+        NATO"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 45
+      enchants:
+        PIERCING: 4
+        QUICK_CHARGE: 2
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 0be1b125-e1c4-40d1-bc46-d7a013dedc23
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"M4A1s"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        28/30"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        3.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        12.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"5.56
+        NATO"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 25
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 8ef52711-7c69-46b7-906e-ab9599099c3b
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"M4A1s
+        (Burst)"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Varient:
+        1"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        30/30"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        3.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        9.0x3"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"5.56
+        NATO"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]
+        to open ironsights"}],"text":""}'
+      custom-model-data: 25
+      enchants:
+        QUICK_CHARGE: 2
+        ARROW_FIRE: 1
+        MULTISHOT: 1
+        DAMAGE_UNDEAD: 5
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: c2200bd6-248e-4495-bf65-817000cca85c
+          operation: 0
+      repair-cost: 7
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"P30[Silenced]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        24/24"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        3.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        9.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"9mm"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]
+        to open ironsights"}],"text":""}'
+      custom-model-data: 23
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 7634d62b-a571-4cfa-8878-cbdc5be5693d
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PHANTOM_MEMBRANE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"NCR
+        Ranger Helmet"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to equip helmet."}],"text":""}'
+      custom-model-data: 19
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 7338236a-e492-4c45-8b04-291239d8376e
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_HELMET
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_HELMET
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_CHESTPLATE
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_LEGGINGS
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 8
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_LEGGINGS
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_LEGGINGS
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 9ca7e257-c91b-4259-87ee-5883c7c3bc8f
+        name: Gundam
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY1MDczNDc3OTY5NywKICAicHJvZmlsZUlkIiA6ICI5Y2E3ZTI1N2M5MWI0MjU5ODdlZTU4ODNjN2MzYmM4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdW5kYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTAxNzk0YmUwMTJkMDNjMzg0MWNlN2IwODk5YzY2MGExODBmMGIyYTg2MmI3ZTMzNTBkNWMxMTEzYmZjM2RjMSIKICAgIH0KICB9Cn0=
+          signature: Ju3wx4hcrc2/qBvwCRKL3oKRInFzieEKmVzOK13IfF7x+MvbxxCNdj4SnilWlhBlJFnDAA0CjlhddZihBmyXsdqC+Ij7+T21nV6wGFWWBCb1F8vt4YZCE2u+xD60rf6PptOz8ERmXQT+6+G8mlPGOrYt2P99J/tGQOXuG24Cy8QYbd+mUzfEW4WI0E7AsSGartl/BU/xYBZtY3roS0N6U/y7pDp3YxmKEwJeaRhxi2egvu0Bi/ZATRHSDjGWjJBWdJzDlOxxDajqrao4PmRtxh54+SWzo2rUQM3EWVIDsdyzFnocuUIr113kBQDWzKp7AUPrx3ERp/Vi/0d9ttPW698lE5RbbI71Wt67y5pqeK3WNzUvpe1bcHBFykQ8+lewM5VgiPtR7QRR+06slttKrF3D59A7kz1oVM2utu4kIoT/Y+Bn4QoU8qaBe3g/riLE+eFOfXfThJwBAICaT8F0mJsVYdH3OyNdUsMaSdLm9ZCV8RfUoT5yJB/M7V3iqQbTdsn+ZrHoBtlBycvaVW+HOMwaM0zkasSdx2N3Nlwpgw3aMMHPWh901cBBpld7ciZhhHOTY+No8zfgGadaf5fH5k2mXzlXGWvB8F5HVsOOFLswbGDWXnhtA3WC5R+OJT3l851y2t8QRiFsQtduIav3gy2k6I0WONFVslz7S5iBjl0=
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GUNPOWDER
+    amount: 64
+  '43':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DURABILITY: 3
+  '44':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DURABILITY: 3
+  '45':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: REDSTONE
+    amount: 64
+  '46':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: REDSTONE
+    amount: 64
+  '47':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: REDSTONE
+    amount: 64
+  '52':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_INGOT
+    amount: 64
+  '53':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_INGOT
+    amount: 64
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"M41PulseRifle"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Game
+        over, man. Game over!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        30/30"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        4.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        24.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"5.56
+        NATO"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 37
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 6e84af45-0a42-4dcf-8b61-8742a6253a1e
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Overwatch
+        Pulse Rifle"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Stardard
+        Issue Rifles for Combie solders."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bullets:
+        30/30"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Damage:
+        4.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"DPS:
+        24.0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ammo:
+        Fusion Cell"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[LMB]
+        to use Single-fire mode"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[Sneak]+[LMB]
+        to use Automatic-fire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"[RMB]
+        to reload"}],"text":""}'
+      custom-model-data: 44
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: generic.attackSpeed
+          uuid: 4c212717-51a7-4889-a289-54274a12397c
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      Unbreakable: true
+      charged: false
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: TNT
+    amount: 64
+  '48':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: REDSTONE
+    amount: 34
+  '51':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_INGOT
+    amount: 55
